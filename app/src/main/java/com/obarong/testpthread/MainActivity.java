@@ -20,16 +20,16 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
 
-        new Thread(new Runnable() {
-            public void run() {
+//        new Thread(new Runnable() {
+//            public void run() {
                 testPthread("Tom");
-            }
-        }).start();
-        new Thread(new Runnable() {
-            public void run() {
+//            }
+//        }).start();
+//        new Thread(new Runnable() {
+//            public void run() {
                 testPthread("Mary");
-            }
-        }).start();
+//            }
+//        }).start();
     }
 
     /**

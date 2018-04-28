@@ -21,5 +21,6 @@ void sayhello(const char *str) {
 }
 
 void stophello() {
+    LOGE("stophello");
     run = 0;
 }
